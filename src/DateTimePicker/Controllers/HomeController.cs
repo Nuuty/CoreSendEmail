@@ -31,5 +31,10 @@ namespace DateTimePicker.Controllers
         {
             return View();
         }
+
+        public IActionResult DateTimePicker()
+        {
+            return View();
+        }
     }
 }
